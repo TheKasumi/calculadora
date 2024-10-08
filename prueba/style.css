@@ -1,0 +1,63 @@
+*{
+    outline: solid 1px black;
+}
+
+#calculator{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: 250px;
+}
+.cero{
+    font-size: 25px; 
+    margin-left: 15px;
+}
+.button{
+    background-color: hsl(253, 90%, 80%);
+    padding: 30px;
+    font-size: 20px;
+    margin: 4px;
+    border-radius: 40%;
+    box-shadow: 4px 4px black;
+}
+.operator{
+    background-color: #625ffa;
+    padding: 30px;
+    font-size: 20px;
+    margin: 0px;
+    border-radius: 40%;
+    box-shadow: 4px 4px black;
+}
+.button1{
+    background-color: rgb(130, 121, 255);
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 40%;
+    box-shadow: 4px 4px black;
+    margin:5px;
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+    padding: 10px 20px;
+    background-color: rgb(210, 167, 250);
+}
+h1{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.lista li{
+    margin-right: 250px;
+    list-style-type: none; /*Borra los puntos del navbar*/
+}
+
