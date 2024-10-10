@@ -25,6 +25,7 @@ body{
     margin: 4px;
     border-radius: 40%;
     box-shadow: 4px 4px black;
+    cursor: pointer;
 }
 .operator{
     background-color: hsl(279, 68%, 54%);
@@ -33,6 +34,7 @@ body{
     margin: 0px;
     border-radius: 40%;
     box-shadow: 4px 4px black;
+    cursor: pointer;
 }
 .button1{
     background-color: rgb(130, 121, 255);
@@ -41,6 +43,7 @@ body{
     border-radius: 40%;
     box-shadow: 4px 4px black;
     margin:5px;
+    cursor: pointer;
 }
 .navbar{
     display: flex; 
