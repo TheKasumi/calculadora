@@ -41,7 +41,7 @@ function calculate() {
         result /= secondOperand;
       } else {
         display.textContent = 'Error';
-        clearAll(); // Limpiar al encontrar un error
+        clr(); // Limpiar al encontrar un error
         return;
       }
       break;
@@ -52,7 +52,7 @@ function calculate() {
   display.textContent = result;
   currentInput = ''; // Preparar para la siguiente operación
 }
-
+z
 function clr() {
   currentInput = '';
   result = null;

@@ -1,5 +1,5 @@
 *{
-    outline: solid 1px black;
+    /*outline: solid 1px black;*/
 }
 body{
     background-image:url(purple.jfif) ;
@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-flow: column;
     align-items: center;
-    margin: 250px;
+    margin: 200px;
 }
 .cero{
     font-size: 25px; 
@@ -68,6 +68,6 @@ h1{
 
 .lista li{
     margin-right: 250px;
-    list-style-type: none; /*Borra los puntos del navbar*/
+    list-style-type: none;
 }
 
